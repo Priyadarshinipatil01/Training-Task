@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+  }
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04AA6D;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .para {
+    padding: 0px 24px 0px 57px; 
+    margin-left: 144px;
+    margin-right: 234px;
+    align-items: center;
+    font-size: 108%;
+
+  }
+  .row{
+    padding-bottom: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .column {
+    float: left;
+    width: 19%;
+    padding: 10px; 
+    margin-left: 6px;
+    align-items: flex-start;
+  }
+.column h2{
+    font-size: 22px;
+}
+.column p{
+    font-size: 108%;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+<body>
+    <div style="border: 1px solid black;">
+        <nav>
+            <li style="font-size: 19px;"><a class="active" href="#">Brussels</a></li>
+            <li style="font-size: 19px;"><a href="#">Sprouts</a></li>
+            <li style="font-size: 19px;"><a href="#">4Eva</a></li>
+            <li style="float:right"><a href="#"> Sign Up </a></li>
+            <li style="float:right"><a href="#">Sign in</a></li>
+            <li style="float:right"><a href="#">Sprouts</a></li>
+            <li style="float:right"><a href="#">List o'</a></li>
+        </nav>
+
+        <p class="para">Cupcake Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor minus incidunt saepe
+            aspernatur quis
+            ipsa commodi aperiam qui, gingerbread bonbon topping cake Dessert quaerat laboriosam facere, reiciendis
+            beatae magnam aut in ad nihil atque aliquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum expedita numquam ipsum error velit laudantium
+            consectetur ea eos. Sesame snaps cupcake bear claw topping jelly beans gingerbread gummies marshmallow jelly
+            beans. Gummi beans lollipop ice cream biscuit cake marzipan jelly beans.</p>
+
+
+    <div class="row" style="margin-left: -42px;">
+        <div class="column" style="background-color:rgba(224, 217, 223, 0.699);">
+          <h2>Wafer chupa chupa tart jujubes</h2>
+          <p>Cheesecake pie icing topping halvah jelly-o. Gummi bears liquorice pie. halvah topping gingerbread
+            lollipop chocolate cake apple pie I love.</p>
+        </div>
+        <div class="column" style="background-color:rgba(224, 217, 223, 0.699);">
+            <h2>Wafer chupa chupa tart jujubes</h2>
+            <p>Cheesecake pie icing topping halvah jelly-o. Gummi bears liquorice pie. halvah topping gingerbread
+              lollipop chocolate cake apple pie I love.</p>
+        </div>
+        <div class="column" style="background-color:rgba(224, 217, 223, 0.699);">
+            <h2>Wafer chupa chupa tart jujubes</h2>
+            <p>Cheesecake pie icing topping halvah jelly-o. Gummi bears liquorice pie. halvah topping gingerbread
+              lollipop chocolate cake apple pie I love.</p>
+        </div>
+      </div>
+
+
+    </div>
+</body>
+
+</html>
