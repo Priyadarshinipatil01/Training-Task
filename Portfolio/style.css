@@ -1,0 +1,89 @@
+/* body{
+    background: #ccc;
+} */
+#bg-img{
+    background: url('./images/GettyImages.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+#About{
+    margin-top: -200px;
+}
+.card-footer .fa{
+    color: #ccc;
+    padding: 12px;
+    
+
+}
+.media{
+    display: flex;
+    flex-direction: row;
+}
+.img-fluid{
+    min-height: 50%;
+}
+.priya{
+    margin-left: 14px;
+    font-size: 129%;
+}
+.text-muted{
+    margin-left: 14px;
+    font-size: 129%;
+}
+.media-body{
+    margin-top: 2rem;
+}
+#About span{
+    padding: 10px 20px 10px 20px;
+}
+.Me{
+    width: 50%;
+    height: 40%;
+    font-size: 123%;
+    padding: 12px;
+}
+.lead{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 99%;
+}
+#Skills span{
+    padding: 10px 20px 10px 20px;
+}
+.card img{
+    width: 30%;
+    height: 30%;
+}
+.row{
+    margin-top: 4rem;
+}
+.card-title{
+    color: maroon;
+    margin-left: 12px;
+    
+}
+#Experience .card{
+border-top: 03px solid red;
+}
+.container-fliud{
+    min-width: 118.3%;
+    margin-left: -104px;
+}
+.text-black{
+    font-size: 110%;
+}
+@media (min-width: 576px) { 
+    .text-black{
+        font-size: 90%;
+    }
+    }
+   
+  
+
+
+  
+  
+
