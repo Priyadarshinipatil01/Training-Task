@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./Todo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="row">To-Do LIST</h1>
+        <br><br>
+        <div class="row">
+            <form>
+                <div class="input-group">
+                    <!-- vw viewport width -->
+                    <input type="text" placeholder="todo-item" id="box" style="width: 30vw;">
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="button" value="Add" style="width: 10vw;" onclick="add_item()">
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul id="list_item"></ul>
+        </div>
+    </div>
+
+
+    <script src="./Todo.js"></script>
+</body>
+
+</html>
